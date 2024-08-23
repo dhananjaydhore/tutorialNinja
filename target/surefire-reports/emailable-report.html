@@ -1,0 +1,103 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "https://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">TutorialsNinja Automation Suite</th></tr>
+<tr><td><a href="#t0">TutorialsNinja Tests</a></td><td class="num">11</td><td class="num">0</td><td class="num">0</td><td class="num attn">3</td><td class="num">164,004</td><td></td><td></td></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">TutorialsNinja Automation Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">TutorialsNinja Tests &#8212; failed</th></tr><tr class="failedeven"><td rowspan="3">com.totorialsninja.qa.testcases.LoginTest</td><td><a href="#m0">verifyLoginWithValidCredentials</a></td><td rowspan="3">1724394503678</td><td rowspan="3">10780</td></tr><tr class="failedeven"><td><a href="#m1">verifyLoginWithValidCredentials</a></td></tr><tr class="failedeven"><td><a href="#m2">verifyLoginWithValidCredentials</a></td></tr><tr><th colspan="4">TutorialsNinja Tests &#8212; passed</th></tr><tr class="passedeven"><td rowspan="4">com.totorialsninja.qa.testcases.LoginTest</td><td><a href="#m3">verifyLoginWithInValidCredentials</a></td><td rowspan="1">1724394561743</td><td rowspan="1">828</td></tr><tr class="passedeven"><td><a href="#m4">verifyLoginWithInvalidEmailAndValidPassword</a></td><td rowspan="1">1724394571412</td><td rowspan="1">722</td></tr><tr class="passedeven"><td><a href="#m5">verifyLoginWithValidEmailAndInValidPassword</a></td><td rowspan="1">1724394580826</td><td rowspan="1">714</td></tr><tr class="passedeven"><td><a href="#m6">verifyLoginWithoutProvidingCredentials</a></td><td rowspan="1">1724394590137</td><td rowspan="1">406</td></tr><tr class="passedodd"><td rowspan="4">com.totorialsninja.qa.testcases.RegisterTest</td><td><a href="#m7">registeringAccountWithoutFillingAnyDetails</a></td><td rowspan="1">1724394494382</td><td rowspan="1">528</td></tr><tr class="passedodd"><td><a href="#m8">verifyRegisteringAnAccountByProvidingAllField</a></td><td rowspan="1">1724394473574</td><td rowspan="1">1625</td></tr><tr class="passedodd"><td><a href="#m9">verifyRegisteringAnAccountWithExixstingEmailAddress</a></td><td rowspan="1">1724394484061</td><td rowspan="1">1346</td></tr><tr class="passedodd"><td><a href="#m10">verifyRegisteringAnAccountWithMandetoryField</a></td><td rowspan="1">1724394462630</td><td rowspan="1">1354</td></tr><tr class="passedeven"><td rowspan="3">com.totorialsninja.qa.testcases.SearchTest</td><td><a href="#m11">verifySearchWithInValidProduct</a></td><td rowspan="1">1724394606951</td><td rowspan="1">516</td></tr><tr class="passedeven"><td><a href="#m12">verifySearchWithValidProduct</a></td><td rowspan="1">1724394598276</td><td rowspan="1">962</td></tr><tr class="passedeven"><td><a href="#m13">verifySearchWithourAnyProduct</a></td><td rowspan="1">1724394615374</td><td rowspan="1">464</td></tr></tbody>
+</table>
+<h2>TutorialsNinja Tests</h2><h3 id="m0">com.totorialsninja.qa.testcases.LoginTest#verifyLoginWithValidCredentials</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>dhoredhananjay5@gmail.com</td><td>DD12345</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">org.openqa.selenium.NoSuchElementException: Unable to locate element: //div[contains(@class,&apos;alert-dismissible&apos;)]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
+System info: host: &apos;DESKTOP-7R7QSH2&apos;, ip: &apos;192.168.43.27&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15.0.2&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 129.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20240812083845, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 11456, moz:profile: C:\Users\DELL\AppData\Local..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 9a2f3204-102e-43ac-ae94-9fbc8d8dbf93
+*** Element info: {Using=xpath, value=//div[contains(@class,&apos;alert-dismissible&apos;)]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:424)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy10.getText(Unknown Source)
+	at com.tutorialsNinja.qa.pages.LoginPage.retrieveEmailPasswordNotMatchingWarningMsgText(LoginPage.java:47)
+	at com.totorialsninja.qa.testcases.LoginTest.verifyLoginWithValidCredentials(LoginTest.java:58)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 36 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.totorialsninja.qa.testcases.LoginTest#verifyLoginWithValidCredentials</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>ddhandbd@gmail.com</td><td>12352</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">org.openqa.selenium.NoSuchElementException: Unable to locate element: Edit your account information
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
+System info: host: &apos;DESKTOP-7R7QSH2&apos;, ip: &apos;192.168.43.27&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15.0.2&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 129.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20240812083845, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 11572, moz:profile: C:\Users\DELL\AppData\Local..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 76fca2ae-bf0e-49e7-8e83-a58b666addb0
+*** Element info: {Using=link text, value=Edit your account information}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByLinkText(RemoteWebDriver.java:376)
+	at org.openqa.selenium.By$ByLinkText.findElement(By.java:220)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy10.isDisplayed(Unknown Source)
+	at com.tutorialsNinja.qa.pages.AccountPage.getDisplayStatusOfAccInfOption(AccountPage.java:26)
+	at com.totorialsninja.qa.testcases.LoginTest.verifyLoginWithValidCredentials(LoginTest.java:60)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 36 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">com.totorialsninja.qa.testcases.LoginTest#verifyLoginWithValidCredentials</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>gdhsdhdj@gail.com</td><td>324142</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">org.openqa.selenium.NoSuchElementException: Unable to locate element: Edit your account information
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
+System info: host: &apos;DESKTOP-7R7QSH2&apos;, ip: &apos;192.168.43.27&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15.0.2&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 129.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20240812083845, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 6048, moz:profile: C:\Users\DELL\AppData\Local..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 4a8d4847-4840-4173-ac26-fe140dd706c0
+*** Element info: {Using=link text, value=Edit your account information}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByLinkText(RemoteWebDriver.java:376)
+	at org.openqa.selenium.By$ByLinkText.findElement(By.java:220)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy10.isDisplayed(Unknown Source)
+	at com.tutorialsNinja.qa.pages.AccountPage.getDisplayStatusOfAccInfOption(AccountPage.java:26)
+	at com.totorialsninja.qa.testcases.LoginTest.verifyLoginWithValidCredentials(LoginTest.java:60)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 36 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">com.totorialsninja.qa.testcases.LoginTest#verifyLoginWithInValidCredentials</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">com.totorialsninja.qa.testcases.LoginTest#verifyLoginWithInvalidEmailAndValidPassword</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">com.totorialsninja.qa.testcases.LoginTest#verifyLoginWithValidEmailAndInValidPassword</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">com.totorialsninja.qa.testcases.LoginTest#verifyLoginWithoutProvidingCredentials</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">com.totorialsninja.qa.testcases.RegisterTest#registeringAccountWithoutFillingAnyDetails</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">com.totorialsninja.qa.testcases.RegisterTest#verifyRegisteringAnAccountByProvidingAllField</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">com.totorialsninja.qa.testcases.RegisterTest#verifyRegisteringAnAccountWithExixstingEmailAddress</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m10">com.totorialsninja.qa.testcases.RegisterTest#verifyRegisteringAnAccountWithMandetoryField</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m11">com.totorialsninja.qa.testcases.SearchTest#verifySearchWithInValidProduct</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m12">com.totorialsninja.qa.testcases.SearchTest#verifySearchWithValidProduct</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m13">com.totorialsninja.qa.testcases.SearchTest#verifySearchWithourAnyProduct</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>

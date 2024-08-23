@@ -1,0 +1,9 @@
+com\tutorialsNinja\qa\pages\AccountSuccessPage.class
+com\tutorialsNinja\qa\pages\HomePage.class
+com\tutorialsNinja\qa\pages\SearchPage.class
+com\tutorialsNinja\qa\utils\Utilities.class
+com\tutorialsNinja\qa\pages\RegisterPage.class
+com\tutorialsNinja\qa\utils\ExtentReporter.class
+com\tutorialsNinja\qa\listners\MyListners.class
+com\tutorialsNinja\qa\pages\LoginPage.class
+com\tutorialsNinja\qa\pages\AccountPage.class
